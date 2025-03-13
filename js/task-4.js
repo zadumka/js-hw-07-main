@@ -13,10 +13,12 @@ const sendForm = (event) => {
       email,
       password,
     };
-    console.log(sendFormObj);
+
+    console.log(sendFormObj.toString());
     form.reset();
   }
 };
 
 form.addEventListener("submit", sendForm);
+
 
